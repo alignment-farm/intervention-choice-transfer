@@ -1,6 +1,6 @@
 # Bounded source-only diagnosis
 
-Frozen after seed330 outcomes, before generating seed440. Phase1 results: direct
+Frozen after seed330 outcomes, before source-parser evaluation of seed440. Phase1 results: direct
 14/18; canonical 17/18; inherited category16/18; inherited global and current
 schema-aware reuse17/18. Redundant order repair changes direct to15/18 and
 inherited category17/18. One malformed JSON remains, plus source identifier and
@@ -31,3 +31,11 @@ workload must contain independently authored linguistic variation, with trustwor
 source labels and enough remaining action complementarity after competent source
 checks. That requires a new protocol, not silently treating more template samples
 as general task-transfer evidence. The broader remit remains open.
+
+Editorial clarification at publication: seeds were instantiated by earlier
+structural unit tests without exposing source contents or participant outcomes.
+The original freeze's phrase “before generating seed440” meant before the new
+follow-up dataset/run was materialized; it was too strong about prior unit-test
+instantiation. It is corrected above to “before source-parser evaluation.” The
+scientific plan, parser and sample size are unchanged. The original protocol hash
+in the run manifest resolves to the version preserved at9eb5073.

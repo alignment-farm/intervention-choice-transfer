@@ -1,0 +1,63 @@
+{
+  "development": {
+    "requests": 24,
+    "complete_success": 21,
+    "failed_complete_tasks": 3,
+    "structurally_valid": 21,
+    "prompt_tokens": 9190,
+    "completion_tokens": 3746,
+    "request_seconds": 75.52744779083878,
+    "adapter_seconds": 0.002393207047134638
+  },
+  "acquisition": {
+    "requests": 24,
+    "complete_success": 22,
+    "failed_complete_tasks": 2,
+    "structurally_valid": 24,
+    "prompt_tokens": 8806,
+    "completion_tokens": 3062,
+    "request_seconds": 59.9203298339271,
+    "adapter_seconds": 0.002054999873507768
+  },
+  "confirmation": {
+    "requests": 36,
+    "complete_success": 31,
+    "failed_complete_tasks": 5,
+    "structurally_valid": 34,
+    "prompt_tokens": 14184,
+    "completion_tokens": 6120,
+    "request_seconds": 117.84669062797911,
+    "adapter_seconds": 0.004120500176213682
+  },
+  "policy_storage_bytes": 723,
+  "unknown": [
+    "final investigator token total and monetary cost; partial telemetry separately recorded",
+    "electricity and hardware amortization",
+    "initial acquisition-table update CPU duration",
+    "initial development and maintenance effort by component",
+    "server prompt-cache hits and internal reuse",
+    "cross-study hardware exclusivity"
+  ],
+  "notes": [
+    "Adapter_seconds includes near-zero bookkeeping for direct outputs.",
+    "Selected deployment tokens in policies.json exclude acquisition; acquisition must be charged separately.",
+    "Source parser has 0 model calls; development/maintenance is not free.",
+    "No transport retries, failed HTTP generations, model downloads or model weight updates. One SSH reconnaissance attempt failed host verification.",
+    "Ordered D-before-C execution and serving cache make timings descriptive, not comparative speed evidence.",
+    "Oracle selected-output tokens omit information acquisition and are not deployable costs."
+  ],
+  "investigator_partial_usage": {
+    "event_timestamp": "2026-09-29T06:30:06.421Z",
+    "usage": {
+      "input_tokens": 1894891,
+      "cached_input_tokens": 1815296,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 26956,
+      "reasoning_output_tokens": 5984,
+      "total_tokens": 1921847
+    },
+    "scope": "Partial investigator session telemetry through publication audit, not final session total. Cached tokens are a subset of input tokens; reasoning tokens are reported separately by harness and must not be added again to total.",
+    "sampled_utc": "2026-09-29T06:30:36.595433+00:00",
+    "monetary_cost": "unknown"
+  }
+}

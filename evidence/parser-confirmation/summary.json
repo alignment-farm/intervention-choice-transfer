@@ -1,0 +1,9 @@
+{
+  "n": 36,
+  "success": 36,
+  "source_cases": 18,
+  "model_calls": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "parser_and_adapter_seconds": 0.0016549206338822842
+}

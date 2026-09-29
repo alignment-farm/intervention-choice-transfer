@@ -45,6 +45,18 @@ def main():
         for name,row in results.items():
             assert row['success']==sum(x['success'] for x in row['decisions'])
             assert row['n']==len(row['decisions'])==18
+    parser_dir=ROOT/'evidence/parser-confirmation'
+    parser_cases=json.loads((parser_dir/'cases.json').read_text())
+    parser_rows=json.loads((parser_dir/'outcomes.json').read_text())
+    assert len(parser_cases)==18 and len(parser_rows)==36
+    assert not seen_ids & {r['id'] for c in parser_cases for r in c['gold']['invoices']}
+    parser_by_id={c['case_id']:c for c in parser_cases}
+    for r in parser_rows:
+        assert r['success'] and r['output']==independent_expected(parser_by_id[r['case_id']],r['interface'])
+    parser_manifest=json.loads((parser_dir/'manifest.json').read_text())
+    assert parser_manifest['parser_sha256']==hashlib.sha256((ROOT/'src/source_parser.py').read_bytes()).hexdigest()
+    assert parser_manifest['participant_model_calls']==0
+    checks.append('fresh source-parser cohort: 36 exact tasks, disjoint IDs, independently reconstructed gold, frozen parser hash')
     dump(ROOT/'evidence/audit.json',{'passed':checks,'actual_calls':len(all_records),'actual_prompt_tokens':sum(r['response']['usage']['prompt_tokens'] for r in all_records),'actual_completion_tokens':sum(r['response']['usage']['completion_tokens'] for r in all_records),'actual_request_seconds':sum(r['request_seconds'] for r in all_records),'audit_scope':'Offline full primary cohort; not an independent investigator review.'})
     print(json.dumps(checks,indent=2))
 if __name__=='__main__':main()

@@ -1,0 +1,488 @@
+[
+  {
+    "case_id": "440-plain-2",
+    "source": "Invoice INV-440-2-0-79925 is from \"O’Neill Labs\". Its total is 4070.24 USD. Deadline: February 02, 2027. It is cancelled. Its memo is \"no rush; fragile\".\nInvoice INV-440-2-1-34085 is from \"Acme & Sons\". Its total is 7701.49 GBP. Deadline: January 07, 2027. It is cancelled. Its memo is \"retain original order\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-79925",
+          "vendor": "O’Neill Labs",
+          "amount": "4070.24",
+          "currency": "USD",
+          "due": "2027-02-02",
+          "status": "cancelled",
+          "memo": "no rush; fragile"
+        },
+        {
+          "id": "INV-440-2-1-34085",
+          "vendor": "Acme & Sons",
+          "amount": "7701.49",
+          "currency": "GBP",
+          "due": "2027-01-07",
+          "status": "cancelled",
+          "memo": "retain original order"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-precision-4",
+    "source": "Invoice INV-440-4-0-90398 is from \"Acme & Sons\". Its total is 54.103 KWD. Deadline: June 02, 2027. It is open. Its memo is \"no rush; fragile\".\nInvoice INV-440-4-1-55113 is from \"North \\\"Star\\\"\". Its total is 966.244 KWD. Deadline: February 25, 2027. It is open. Its memo is \"retain original order\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-90398",
+          "vendor": "Acme & Sons",
+          "amount": "54.103",
+          "currency": "KWD",
+          "due": "2027-06-02",
+          "status": "open",
+          "memo": "no rush; fragile"
+        },
+        {
+          "id": "INV-440-4-1-55113",
+          "vendor": "North \"Star\"",
+          "amount": "966.244",
+          "currency": "KWD",
+          "due": "2027-02-25",
+          "status": "open",
+          "memo": "retain original order"
+        }
+      ]
+    },
+    "group": "precision"
+  },
+  {
+    "case_id": "440-plain-3",
+    "source": "Invoice INV-440-3-0-86375 is from \"Müller Studio\". Its total is 3484.13 GBP. Deadline: May 08, 2027. It is open. Its memo is \"retain original order\".\nInvoice INV-440-3-1-33425 is from \"North \\\"Star\\\"\". Its total is 9187.87 GBP. Deadline: December 08, 2027. It is open. Its memo is \"batch \\\"B\\\" / blue\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-86375",
+          "vendor": "Müller Studio",
+          "amount": "3484.13",
+          "currency": "GBP",
+          "due": "2027-05-08",
+          "status": "open",
+          "memo": "retain original order"
+        },
+        {
+          "id": "INV-440-3-1-33425",
+          "vendor": "North \"Star\"",
+          "amount": "9187.87",
+          "currency": "GBP",
+          "due": "2027-12-08",
+          "status": "open",
+          "memo": "batch \"B\" / blue"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-plain-5",
+    "source": "Invoice INV-440-5-0-38184 is from \"A/B Supply\". Its total is 6794.17 EUR. Deadline: unknown. It is cancelled. Its memo is \"batch \\\"B\\\" / blue\".\nInvoice INV-440-5-1-38754 is from \"North \\\"Star\\\"\". Its total is 1597.49 USD. Deadline: November 27, 2027. It is open. Its memo is \"batch \\\"B\\\" / blue\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-38184",
+          "vendor": "A/B Supply",
+          "amount": "6794.17",
+          "currency": "EUR",
+          "due": null,
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue"
+        },
+        {
+          "id": "INV-440-5-1-38754",
+          "vendor": "North \"Star\"",
+          "amount": "1597.49",
+          "currency": "USD",
+          "due": "2027-11-27",
+          "status": "open",
+          "memo": "batch \"B\" / blue"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-plain-4",
+    "source": "Invoice INV-440-4-0-13312 is from \"Acme & Sons\". Its total is 6503.45 GBP. Deadline: March 08, 2027. It is cancelled. Its memo is \"line A & B\".\nInvoice INV-440-4-1-43338 is from \"Müller Studio\". Its total is 2111.23 GBP. Deadline: September 24, 2027. It is open. Its memo is \"café supplies\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-13312",
+          "vendor": "Acme & Sons",
+          "amount": "6503.45",
+          "currency": "GBP",
+          "due": "2027-03-08",
+          "status": "cancelled",
+          "memo": "line A & B"
+        },
+        {
+          "id": "INV-440-4-1-43338",
+          "vendor": "Müller Studio",
+          "amount": "2111.23",
+          "currency": "GBP",
+          "due": "2027-09-24",
+          "status": "open",
+          "memo": "café supplies"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-precision-5",
+    "source": "Invoice INV-440-5-0-35403 is from \"Müller Studio\". Its total is 669879 JPY. Deadline: unknown. It is open. Its memo is \"line A & B\".\nInvoice INV-440-5-1-29046 is from \"O’Neill Labs\". Its total is 471.126 KWD. Deadline: December 23, 2027. It is cancelled. Its memo is \"no rush; fragile\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-35403",
+          "vendor": "Müller Studio",
+          "amount": "669879",
+          "currency": "JPY",
+          "due": null,
+          "status": "open",
+          "memo": "line A & B"
+        },
+        {
+          "id": "INV-440-5-1-29046",
+          "vendor": "O’Neill Labs",
+          "amount": "471.126",
+          "currency": "KWD",
+          "due": "2027-12-23",
+          "status": "cancelled",
+          "memo": "no rush; fragile"
+        }
+      ]
+    },
+    "group": "precision"
+  },
+  {
+    "case_id": "440-precision-2",
+    "source": "Invoice INV-440-2-0-45256 is from \"O’Neill Labs\". Its total is 455185 JPY. Deadline: unknown. It is cancelled. Its memo is \"café supplies\".\nInvoice INV-440-2-1-72421 is from \"A/B Supply\". Its total is 597.153 KWD. Deadline: February 11, 2027. It is open. Its memo is \"retain original order\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-45256",
+          "vendor": "O’Neill Labs",
+          "amount": "455185",
+          "currency": "JPY",
+          "due": null,
+          "status": "cancelled",
+          "memo": "café supplies"
+        },
+        {
+          "id": "INV-440-2-1-72421",
+          "vendor": "A/B Supply",
+          "amount": "597.153",
+          "currency": "KWD",
+          "due": "2027-02-11",
+          "status": "open",
+          "memo": "retain original order"
+        }
+      ]
+    },
+    "group": "precision"
+  },
+  {
+    "case_id": "440-correction-4",
+    "source": "Invoice INV-440-4-0-43500: vendor is \"O’Neill Labs\"; total 1372.10 EUR; deadline August 11, 2027; status open; memo \"no rush; fragile\". Correction for INV-440-4-0-43500: total is 1364.79 EUR, and final status is cancelled. All other fields remain unchanged.\nInvoice INV-440-4-1-39722: vendor is \"O’Neill Labs\"; total 4096.43 USD; deadline July 18, 2027; status open; memo \"café supplies\". Correction for INV-440-4-1-39722: total is 4089.12 USD, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-43500",
+          "vendor": "O’Neill Labs",
+          "amount": "1364.79",
+          "currency": "EUR",
+          "due": "2027-08-11",
+          "status": "cancelled",
+          "memo": "no rush; fragile"
+        },
+        {
+          "id": "INV-440-4-1-39722",
+          "vendor": "O’Neill Labs",
+          "amount": "4089.12",
+          "currency": "USD",
+          "due": "2027-07-18",
+          "status": "open",
+          "memo": "café supplies"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-correction-0",
+    "source": "Invoice INV-440-0-0-64766: vendor is \"Müller Studio\"; total 2835.40 EUR; deadline unknown; status open; memo \"café supplies\". Correction for INV-440-0-0-64766: total is 2828.09 EUR, and final status is open. All other fields remain unchanged.\nInvoice INV-440-0-1-20503: vendor is \"North \\\"Star\\\"\"; total 2103.53 GBP; deadline April 19, 2027; status open; memo \"no rush; fragile\". Correction for INV-440-0-1-20503: total is 2096.22 GBP, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-64766",
+          "vendor": "Müller Studio",
+          "amount": "2828.09",
+          "currency": "EUR",
+          "due": null,
+          "status": "open",
+          "memo": "café supplies"
+        },
+        {
+          "id": "INV-440-0-1-20503",
+          "vendor": "North \"Star\"",
+          "amount": "2096.22",
+          "currency": "GBP",
+          "due": "2027-04-19",
+          "status": "open",
+          "memo": "no rush; fragile"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-correction-3",
+    "source": "Invoice INV-440-3-0-98108: vendor is \"Acme & Sons\"; total 3700.44 EUR; deadline unknown; status open; memo \"retain original order\". Correction for INV-440-3-0-98108: total is 3693.13 EUR, and final status is open. All other fields remain unchanged.\nInvoice INV-440-3-1-60042: vendor is \"North \\\"Star\\\"\"; total 5501.96 GBP; deadline January 01, 2027; status open; memo \"no rush; fragile\". Correction for INV-440-3-1-60042: total is 5494.65 GBP, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-98108",
+          "vendor": "Acme & Sons",
+          "amount": "3693.13",
+          "currency": "EUR",
+          "due": null,
+          "status": "open",
+          "memo": "retain original order"
+        },
+        {
+          "id": "INV-440-3-1-60042",
+          "vendor": "North \"Star\"",
+          "amount": "5494.65",
+          "currency": "GBP",
+          "due": "2027-01-01",
+          "status": "open",
+          "memo": "no rush; fragile"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-correction-5",
+    "source": "Invoice INV-440-5-0-96004: vendor is \"O’Neill Labs\"; total 9874.25 GBP; deadline unknown; status open; memo \"batch \\\"B\\\" / blue\". Correction for INV-440-5-0-96004: total is 9866.94 GBP, and final status is open. All other fields remain unchanged.\nInvoice INV-440-5-1-35681: vendor is \"A/B Supply\"; total 4416.46 GBP; deadline July 01, 2027; status open; memo \"line A & B\". Correction for INV-440-5-1-35681: total is 4409.15 GBP, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-96004",
+          "vendor": "O’Neill Labs",
+          "amount": "9866.94",
+          "currency": "GBP",
+          "due": null,
+          "status": "open",
+          "memo": "batch \"B\" / blue"
+        },
+        {
+          "id": "INV-440-5-1-35681",
+          "vendor": "A/B Supply",
+          "amount": "4409.15",
+          "currency": "GBP",
+          "due": "2027-07-01",
+          "status": "open",
+          "memo": "line A & B"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-precision-0",
+    "source": "Invoice INV-440-0-0-37664 is from \"Müller Studio\". Its total is 138.377 KWD. Deadline: unknown. It is cancelled. Its memo is \"no rush; fragile\".\nInvoice INV-440-0-1-88392 is from \"Müller Studio\". Its total is 226.697 KWD. Deadline: September 22, 2027. It is open. Its memo is \"no rush; fragile\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-37664",
+          "vendor": "Müller Studio",
+          "amount": "138.377",
+          "currency": "KWD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "no rush; fragile"
+        },
+        {
+          "id": "INV-440-0-1-88392",
+          "vendor": "Müller Studio",
+          "amount": "226.697",
+          "currency": "KWD",
+          "due": "2027-09-22",
+          "status": "open",
+          "memo": "no rush; fragile"
+        }
+      ]
+    },
+    "group": "precision"
+  },
+  {
+    "case_id": "440-correction-2",
+    "source": "Invoice INV-440-2-0-11461: vendor is \"Müller Studio\"; total 2047.23 USD; deadline December 16, 2027; status open; memo \"no rush; fragile\". Correction for INV-440-2-0-11461: total is 2039.92 USD, and final status is open. All other fields remain unchanged.\nInvoice INV-440-2-1-88262: vendor is \"North \\\"Star\\\"\"; total 7230.61 EUR; deadline April 25, 2027; status open; memo \"line A & B\". Correction for INV-440-2-1-88262: total is 7223.30 EUR, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-11461",
+          "vendor": "Müller Studio",
+          "amount": "2039.92",
+          "currency": "USD",
+          "due": "2027-12-16",
+          "status": "open",
+          "memo": "no rush; fragile"
+        },
+        {
+          "id": "INV-440-2-1-88262",
+          "vendor": "North \"Star\"",
+          "amount": "7223.30",
+          "currency": "EUR",
+          "due": "2027-04-25",
+          "status": "open",
+          "memo": "line A & B"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-correction-1",
+    "source": "Invoice INV-440-1-0-53021: vendor is \"O’Neill Labs\"; total 6125.77 GBP; deadline June 17, 2027; status open; memo \"retain original order\". Correction for INV-440-1-0-53021: total is 6118.46 GBP, and final status is cancelled. All other fields remain unchanged.\nInvoice INV-440-1-1-49620: vendor is \"Müller Studio\"; total 4516.19 GBP; deadline unknown; status open; memo \"retain original order\". Correction for INV-440-1-1-49620: total is 4508.88 GBP, and final status is open. All other fields remain unchanged.",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-53021",
+          "vendor": "O’Neill Labs",
+          "amount": "6118.46",
+          "currency": "GBP",
+          "due": "2027-06-17",
+          "status": "cancelled",
+          "memo": "retain original order"
+        },
+        {
+          "id": "INV-440-1-1-49620",
+          "vendor": "Müller Studio",
+          "amount": "4508.88",
+          "currency": "GBP",
+          "due": null,
+          "status": "open",
+          "memo": "retain original order"
+        }
+      ]
+    },
+    "group": "correction"
+  },
+  {
+    "case_id": "440-precision-1",
+    "source": "Invoice INV-440-1-0-92236 is from \"Müller Studio\". Its total is 377079 JPY. Deadline: August 01, 2027. It is open. Its memo is \"batch \\\"B\\\" / blue\".\nInvoice INV-440-1-1-42890 is from \"Müller Studio\". Its total is 211171 JPY. Deadline: February 19, 2027. It is open. Its memo is \"batch \\\"B\\\" / blue\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-92236",
+          "vendor": "Müller Studio",
+          "amount": "377079",
+          "currency": "JPY",
+          "due": "2027-08-01",
+          "status": "open",
+          "memo": "batch \"B\" / blue"
+        },
+        {
+          "id": "INV-440-1-1-42890",
+          "vendor": "Müller Studio",
+          "amount": "211171",
+          "currency": "JPY",
+          "due": "2027-02-19",
+          "status": "open",
+          "memo": "batch \"B\" / blue"
+        }
+      ]
+    },
+    "group": "precision"
+  },
+  {
+    "case_id": "440-plain-0",
+    "source": "Invoice INV-440-0-0-20847 is from \"North \\\"Star\\\"\". Its total is 7878.04 USD. Deadline: unknown. It is cancelled. Its memo is \"café supplies\".\nInvoice INV-440-0-1-92809 is from \"A/B Supply\". Its total is 5783.41 EUR. Deadline: November 05, 2027. It is cancelled. Its memo is \"batch \\\"B\\\" / blue\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-20847",
+          "vendor": "North \"Star\"",
+          "amount": "7878.04",
+          "currency": "USD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "café supplies"
+        },
+        {
+          "id": "INV-440-0-1-92809",
+          "vendor": "A/B Supply",
+          "amount": "5783.41",
+          "currency": "EUR",
+          "due": "2027-11-05",
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-plain-1",
+    "source": "Invoice INV-440-1-0-21053 is from \"O’Neill Labs\". Its total is 247.23 EUR. Deadline: August 10, 2027. It is cancelled. Its memo is \"batch \\\"B\\\" / blue\".\nInvoice INV-440-1-1-80088 is from \"North \\\"Star\\\"\". Its total is 8946.10 USD. Deadline: November 10, 2027. It is open. Its memo is \"no rush; fragile\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-21053",
+          "vendor": "O’Neill Labs",
+          "amount": "247.23",
+          "currency": "EUR",
+          "due": "2027-08-10",
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue"
+        },
+        {
+          "id": "INV-440-1-1-80088",
+          "vendor": "North \"Star\"",
+          "amount": "8946.10",
+          "currency": "USD",
+          "due": "2027-11-10",
+          "status": "open",
+          "memo": "no rush; fragile"
+        }
+      ]
+    },
+    "group": "plain"
+  },
+  {
+    "case_id": "440-precision-3",
+    "source": "Invoice INV-440-3-0-62999 is from \"O’Neill Labs\". Its total is 564.751 KWD. Deadline: July 09, 2027. It is open. Its memo is \"line A & B\".\nInvoice INV-440-3-1-15488 is from \"North \\\"Star\\\"\". Its total is 610.681 KWD. Deadline: unknown. It is cancelled. Its memo is \"line A & B\".",
+    "gold": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-62999",
+          "vendor": "O’Neill Labs",
+          "amount": "564.751",
+          "currency": "KWD",
+          "due": "2027-07-09",
+          "status": "open",
+          "memo": "line A & B"
+        },
+        {
+          "id": "INV-440-3-1-15488",
+          "vendor": "North \"Star\"",
+          "amount": "610.681",
+          "currency": "KWD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "line A & B"
+        }
+      ]
+    },
+    "group": "precision"
+  }
+]

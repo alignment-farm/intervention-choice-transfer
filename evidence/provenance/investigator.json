@@ -14,7 +14,7 @@
     "START.md",
     "AGENTS.md"
   ],
-  "investigator_token_cost": "unknown",
+  "investigator_token_cost": "Partial harness-reported snapshot in investigator-usage.json; final total unknown",
   "investigator_money_cost": "unknown",
   "participant_money_cost": "unknown; local hardware electricity/amortization not measured",
   "participant_training": "none; no gradient capability checked or claimed",

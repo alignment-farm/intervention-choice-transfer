@@ -8,11 +8,63 @@ and where that experience should live. This study asks:
 > work after the receiving agent or interface changes, beyond competent current
 > diagnosis and unchanged reuse of the old decision policy?
 
-**Preparation status:** the repository contains a question, resources, inspected
-public leads and an initial expectation. No workload, functioning remedy pair,
-acquired decision policy or experimental result has been established. The
-investigator owns bounded feasibility, methods, execution and publication.
-Read [AGENTS.md](AGENTS.md), [BACKGROUND.md](BACKGROUND.md) and [START.md](START.md).
+**Status, 29 September 2026:** the first bounded experiment and a source-only
+follow-up are complete. Across 84 participant model calls, a persisted chooser
+learned from earlier intervention outcomes but did not beat ordinary reuse after
+an API change. On 18 fresh source cases, direct generation solved 14, the canonical
+adapter 17, and the inherited category policy 16. A subsequent ordinary parser
+solved 36/36 fresh API tasks (18 new cases × two interfaces) with no model calls.
+This exposes a limitation of the authored source grammar, not a general negative
+result about learning intervention choices.
+
+Read the [findings and limitations](reports/phase1-findings.md),
+[initial protocol](protocols/phase1.md), [follow-up protocol](protocols/followup.md)
+and [source ledger](sources/ledger.md). All failed outputs are preserved.
+The phase is closed on explanatory progress; the wider question remains open.
+No model job is running and no user action is required. Further selector search
+on this grammar is unjustified. The next distinct workload should first establish
+trustworthy labels and residual remedy complementarity on independently authored
+language after ordinary parsing, retrieval and repair.
+
+## Evidence and reproduction
+
+- [Acquired decision table](evidence/policy.json), frozen before fresh evaluation.
+- [Development outcomes](evidence/development/summary.json),
+  [acquisition](evidence/acquisition/summary.json),
+  [fresh policy comparisons](evidence/confirmation/policies.json),
+  [comparisons with shared repair](evidence/confirmation/repaired-policies.json).
+- [Fresh source-parser results](evidence/parser-confirmation/summary.json),
+  [cost ledger](evidence/costs.json), [audit](evidence/audit.json).
+- [Provenance](evidence/provenance/investigator.json) and
+  [resource record](notes/resource-use.md). Raw prompts, responses, usage and labels
+  are colocated in each evidence directory.
+
+Offline checks require no serving resource:
+
+```sh
+uv sync --frozen
+uv run python -m unittest discover -s tests -v
+uv run python src/audit.py
+```
+
+For live reproduction in a separate checkout, preserve the archived policy and
+use new output paths (the runner rejects overwrites):
+
+```sh
+uv run python src/experiment.py run --seed 110 --per-group 2 --interfaces v1 v2 --output evidence/replay-development
+uv run python src/experiment.py run --seed 220 --per-group 4 --interfaces v1 --output evidence/replay-acquisition
+uv run python src/experiment.py acquire evidence/replay-acquisition/outcomes.jsonl
+uv run python src/experiment.py run --seed 330 --per-group 6 --interfaces v2 --output evidence/replay-confirmation
+uv run python src/repair_control.py evidence/replay-confirmation/outcomes.jsonl
+uv run python src/source_parser.py --fresh --output evidence/replay-parser
+```
+
+The model endpoint, model identity, decoding settings and source generator are in
+[src/experiment.py](src/experiment.py). Exact recorded revisions are in the report
+and manifests. These are offline policy replays on measured alternatives, not
+live autonomous chooser-agent runs. Source-parser reproduction is CPU-only.
+Read [AGENTS.md](AGENTS.md), [BACKGROUND.md](BACKGROUND.md) and [START.md](START.md)
+for the original remit and starting context.
 
 ## What is being learned?
 

@@ -1,0 +1,14 @@
+{
+  "event_timestamp": "2026-09-29T06:30:06.421Z",
+  "usage": {
+    "input_tokens": 1894891,
+    "cached_input_tokens": 1815296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26956,
+    "reasoning_output_tokens": 5984,
+    "total_tokens": 1921847
+  },
+  "scope": "Partial investigator session telemetry through publication audit, not final session total. Cached tokens are a subset of input tokens; reasoning tokens are reported separately by harness and must not be added again to total.",
+  "sampled_utc": "2026-09-29T06:30:36.595433+00:00",
+  "monetary_cost": "unknown"
+}

@@ -1,0 +1,1222 @@
+[
+  {
+    "case_id": "440-plain-2",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-79925",
+          "vendor": "O’Neill Labs",
+          "currency": "USD",
+          "due": "2027-02-02",
+          "status": "cancelled",
+          "memo": "no rush; fragile",
+          "amount_minor": 407024
+        },
+        {
+          "id": "INV-440-2-1-34085",
+          "vendor": "Acme & Sons",
+          "currency": "GBP",
+          "due": "2027-01-07",
+          "status": "cancelled",
+          "memo": "retain original order",
+          "amount_minor": 770149
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 0.0007591669564135373
+  },
+  {
+    "case_id": "440-plain-2",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-2-0-79925": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 407024,
+            "currency": "USD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 2,
+            "day": 2
+          },
+          "cancelled": true,
+          "memo": "no rush; fragile"
+        },
+        "INV-440-2-1-34085": {
+          "supplier": "Acme & Sons",
+          "money": {
+            "units": 770149,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 1,
+            "day": 7
+          },
+          "cancelled": true,
+          "memo": "retain original order"
+        }
+      },
+      "order": [
+        "INV-440-2-0-79925",
+        "INV-440-2-1-34085"
+      ]
+    },
+    "success": true,
+    "seconds": 4.604196874424815e-05
+  },
+  {
+    "case_id": "440-precision-4",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-90398",
+          "vendor": "Acme & Sons",
+          "currency": "KWD",
+          "due": "2027-06-02",
+          "status": "open",
+          "memo": "no rush; fragile",
+          "amount_minor": 54103
+        },
+        {
+          "id": "INV-440-4-1-55113",
+          "vendor": "North \"Star\"",
+          "currency": "KWD",
+          "due": "2027-02-25",
+          "status": "open",
+          "memo": "retain original order",
+          "amount_minor": 966244
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 3.1709030736237764e-05
+  },
+  {
+    "case_id": "440-precision-4",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-4-0-90398": {
+          "supplier": "Acme & Sons",
+          "money": {
+            "units": 54103,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 6,
+            "day": 2
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        },
+        "INV-440-4-1-55113": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 966244,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 2,
+            "day": 25
+          },
+          "cancelled": false,
+          "memo": "retain original order"
+        }
+      },
+      "order": [
+        "INV-440-4-0-90398",
+        "INV-440-4-1-55113"
+      ]
+    },
+    "success": true,
+    "seconds": 3.058300353586674e-05
+  },
+  {
+    "case_id": "440-plain-3",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-86375",
+          "vendor": "Müller Studio",
+          "currency": "GBP",
+          "due": "2027-05-08",
+          "status": "open",
+          "memo": "retain original order",
+          "amount_minor": 348413
+        },
+        {
+          "id": "INV-440-3-1-33425",
+          "vendor": "North \"Star\"",
+          "currency": "GBP",
+          "due": "2027-12-08",
+          "status": "open",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 918787
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.779200440272689e-05
+  },
+  {
+    "case_id": "440-plain-3",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-3-0-86375": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 348413,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 5,
+            "day": 8
+          },
+          "cancelled": false,
+          "memo": "retain original order"
+        },
+        "INV-440-3-1-33425": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 918787,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 12,
+            "day": 8
+          },
+          "cancelled": false,
+          "memo": "batch \"B\" / blue"
+        }
+      },
+      "order": [
+        "INV-440-3-0-86375",
+        "INV-440-3-1-33425"
+      ]
+    },
+    "success": true,
+    "seconds": 2.7999980375170708e-05
+  },
+  {
+    "case_id": "440-plain-5",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-38184",
+          "vendor": "A/B Supply",
+          "currency": "EUR",
+          "due": null,
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 679417
+        },
+        {
+          "id": "INV-440-5-1-38754",
+          "vendor": "North \"Star\"",
+          "currency": "USD",
+          "due": "2027-11-27",
+          "status": "open",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 159749
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.220895839855075e-05
+  },
+  {
+    "case_id": "440-plain-5",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-5-0-38184": {
+          "supplier": "A/B Supply",
+          "money": {
+            "units": 679417,
+            "currency": "EUR"
+          },
+          "deadline": null,
+          "cancelled": true,
+          "memo": "batch \"B\" / blue"
+        },
+        "INV-440-5-1-38754": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 159749,
+            "currency": "USD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 11,
+            "day": 27
+          },
+          "cancelled": false,
+          "memo": "batch \"B\" / blue"
+        }
+      },
+      "order": [
+        "INV-440-5-0-38184",
+        "INV-440-5-1-38754"
+      ]
+    },
+    "success": true,
+    "seconds": 2.2290972992777824e-05
+  },
+  {
+    "case_id": "440-plain-4",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-13312",
+          "vendor": "Acme & Sons",
+          "currency": "GBP",
+          "due": "2027-03-08",
+          "status": "cancelled",
+          "memo": "line A & B",
+          "amount_minor": 650345
+        },
+        {
+          "id": "INV-440-4-1-43338",
+          "vendor": "Müller Studio",
+          "currency": "GBP",
+          "due": "2027-09-24",
+          "status": "open",
+          "memo": "café supplies",
+          "amount_minor": 211123
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.466695150360465e-05
+  },
+  {
+    "case_id": "440-plain-4",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-4-0-13312": {
+          "supplier": "Acme & Sons",
+          "money": {
+            "units": 650345,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 3,
+            "day": 8
+          },
+          "cancelled": true,
+          "memo": "line A & B"
+        },
+        "INV-440-4-1-43338": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 211123,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 9,
+            "day": 24
+          },
+          "cancelled": false,
+          "memo": "café supplies"
+        }
+      },
+      "order": [
+        "INV-440-4-0-13312",
+        "INV-440-4-1-43338"
+      ]
+    },
+    "success": true,
+    "seconds": 2.562499139457941e-05
+  },
+  {
+    "case_id": "440-precision-5",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-35403",
+          "vendor": "Müller Studio",
+          "currency": "JPY",
+          "due": null,
+          "status": "open",
+          "memo": "line A & B",
+          "amount_minor": 669879
+        },
+        {
+          "id": "INV-440-5-1-29046",
+          "vendor": "O’Neill Labs",
+          "currency": "KWD",
+          "due": "2027-12-23",
+          "status": "cancelled",
+          "memo": "no rush; fragile",
+          "amount_minor": 471126
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.9499991796910763e-05
+  },
+  {
+    "case_id": "440-precision-5",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-5-0-35403": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 669879,
+            "currency": "JPY"
+          },
+          "deadline": null,
+          "cancelled": false,
+          "memo": "line A & B"
+        },
+        "INV-440-5-1-29046": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 471126,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 12,
+            "day": 23
+          },
+          "cancelled": true,
+          "memo": "no rush; fragile"
+        }
+      },
+      "order": [
+        "INV-440-5-0-35403",
+        "INV-440-5-1-29046"
+      ]
+    },
+    "success": true,
+    "seconds": 2.5084009394049644e-05
+  },
+  {
+    "case_id": "440-precision-2",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-45256",
+          "vendor": "O’Neill Labs",
+          "currency": "JPY",
+          "due": null,
+          "status": "cancelled",
+          "memo": "café supplies",
+          "amount_minor": 455185
+        },
+        {
+          "id": "INV-440-2-1-72421",
+          "vendor": "A/B Supply",
+          "currency": "KWD",
+          "due": "2027-02-11",
+          "status": "open",
+          "memo": "retain original order",
+          "amount_minor": 597153
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.400000812485814e-05
+  },
+  {
+    "case_id": "440-precision-2",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-2-0-45256": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 455185,
+            "currency": "JPY"
+          },
+          "deadline": null,
+          "cancelled": true,
+          "memo": "café supplies"
+        },
+        "INV-440-2-1-72421": {
+          "supplier": "A/B Supply",
+          "money": {
+            "units": 597153,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 2,
+            "day": 11
+          },
+          "cancelled": false,
+          "memo": "retain original order"
+        }
+      },
+      "order": [
+        "INV-440-2-0-45256",
+        "INV-440-2-1-72421"
+      ]
+    },
+    "success": true,
+    "seconds": 2.4500011932104826e-05
+  },
+  {
+    "case_id": "440-correction-4",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-4-0-43500",
+          "vendor": "O’Neill Labs",
+          "due": "2027-08-11",
+          "memo": "no rush; fragile",
+          "currency": "EUR",
+          "status": "cancelled",
+          "amount_minor": 136479
+        },
+        {
+          "id": "INV-440-4-1-39722",
+          "vendor": "O’Neill Labs",
+          "due": "2027-07-18",
+          "memo": "café supplies",
+          "currency": "USD",
+          "status": "open",
+          "amount_minor": 408912
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 3.316695801913738e-05
+  },
+  {
+    "case_id": "440-correction-4",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-4-0-43500": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 136479,
+            "currency": "EUR"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 8,
+            "day": 11
+          },
+          "cancelled": true,
+          "memo": "no rush; fragile"
+        },
+        "INV-440-4-1-39722": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 408912,
+            "currency": "USD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 7,
+            "day": 18
+          },
+          "cancelled": false,
+          "memo": "café supplies"
+        }
+      },
+      "order": [
+        "INV-440-4-0-43500",
+        "INV-440-4-1-39722"
+      ]
+    },
+    "success": true,
+    "seconds": 2.9333983547985554e-05
+  },
+  {
+    "case_id": "440-correction-0",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-64766",
+          "vendor": "Müller Studio",
+          "due": null,
+          "memo": "café supplies",
+          "currency": "EUR",
+          "status": "open",
+          "amount_minor": 282809
+        },
+        {
+          "id": "INV-440-0-1-20503",
+          "vendor": "North \"Star\"",
+          "due": "2027-04-19",
+          "memo": "no rush; fragile",
+          "currency": "GBP",
+          "status": "open",
+          "amount_minor": 209622
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.4334003683179617e-05
+  },
+  {
+    "case_id": "440-correction-0",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-0-0-64766": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 282809,
+            "currency": "EUR"
+          },
+          "deadline": null,
+          "cancelled": false,
+          "memo": "café supplies"
+        },
+        "INV-440-0-1-20503": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 209622,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 4,
+            "day": 19
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        }
+      },
+      "order": [
+        "INV-440-0-0-64766",
+        "INV-440-0-1-20503"
+      ]
+    },
+    "success": true,
+    "seconds": 2.3083994165062904e-05
+  },
+  {
+    "case_id": "440-correction-3",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-98108",
+          "vendor": "Acme & Sons",
+          "due": null,
+          "memo": "retain original order",
+          "currency": "EUR",
+          "status": "open",
+          "amount_minor": 369313
+        },
+        {
+          "id": "INV-440-3-1-60042",
+          "vendor": "North \"Star\"",
+          "due": "2027-01-01",
+          "memo": "no rush; fragile",
+          "currency": "GBP",
+          "status": "open",
+          "amount_minor": 549465
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.5582965463399887e-05
+  },
+  {
+    "case_id": "440-correction-3",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-3-0-98108": {
+          "supplier": "Acme & Sons",
+          "money": {
+            "units": 369313,
+            "currency": "EUR"
+          },
+          "deadline": null,
+          "cancelled": false,
+          "memo": "retain original order"
+        },
+        "INV-440-3-1-60042": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 549465,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 1,
+            "day": 1
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        }
+      },
+      "order": [
+        "INV-440-3-0-98108",
+        "INV-440-3-1-60042"
+      ]
+    },
+    "success": true,
+    "seconds": 2.316699828952551e-05
+  },
+  {
+    "case_id": "440-correction-5",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-5-0-96004",
+          "vendor": "O’Neill Labs",
+          "due": null,
+          "memo": "batch \"B\" / blue",
+          "currency": "GBP",
+          "status": "open",
+          "amount_minor": 986694
+        },
+        {
+          "id": "INV-440-5-1-35681",
+          "vendor": "A/B Supply",
+          "due": "2027-07-01",
+          "memo": "line A & B",
+          "currency": "GBP",
+          "status": "open",
+          "amount_minor": 440915
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.258300082758069e-05
+  },
+  {
+    "case_id": "440-correction-5",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-5-0-96004": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 986694,
+            "currency": "GBP"
+          },
+          "deadline": null,
+          "cancelled": false,
+          "memo": "batch \"B\" / blue"
+        },
+        "INV-440-5-1-35681": {
+          "supplier": "A/B Supply",
+          "money": {
+            "units": 440915,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 7,
+            "day": 1
+          },
+          "cancelled": false,
+          "memo": "line A & B"
+        }
+      },
+      "order": [
+        "INV-440-5-0-96004",
+        "INV-440-5-1-35681"
+      ]
+    },
+    "success": true,
+    "seconds": 2.2666004952043295e-05
+  },
+  {
+    "case_id": "440-precision-0",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-37664",
+          "vendor": "Müller Studio",
+          "currency": "KWD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "no rush; fragile",
+          "amount_minor": 138377
+        },
+        {
+          "id": "INV-440-0-1-88392",
+          "vendor": "Müller Studio",
+          "currency": "KWD",
+          "due": "2027-09-22",
+          "status": "open",
+          "memo": "no rush; fragile",
+          "amount_minor": 226697
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.195901470258832e-05
+  },
+  {
+    "case_id": "440-precision-0",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-0-0-37664": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 138377,
+            "currency": "KWD"
+          },
+          "deadline": null,
+          "cancelled": true,
+          "memo": "no rush; fragile"
+        },
+        "INV-440-0-1-88392": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 226697,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 9,
+            "day": 22
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        }
+      },
+      "order": [
+        "INV-440-0-0-37664",
+        "INV-440-0-1-88392"
+      ]
+    },
+    "success": true,
+    "seconds": 2.179195871576667e-05
+  },
+  {
+    "case_id": "440-correction-2",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-2-0-11461",
+          "vendor": "Müller Studio",
+          "due": "2027-12-16",
+          "memo": "no rush; fragile",
+          "currency": "USD",
+          "status": "open",
+          "amount_minor": 203992
+        },
+        {
+          "id": "INV-440-2-1-88262",
+          "vendor": "North \"Star\"",
+          "due": "2027-04-25",
+          "memo": "line A & B",
+          "currency": "EUR",
+          "status": "open",
+          "amount_minor": 722330
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.5416957214474678e-05
+  },
+  {
+    "case_id": "440-correction-2",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-2-0-11461": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 203992,
+            "currency": "USD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 12,
+            "day": 16
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        },
+        "INV-440-2-1-88262": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 722330,
+            "currency": "EUR"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 4,
+            "day": 25
+          },
+          "cancelled": false,
+          "memo": "line A & B"
+        }
+      },
+      "order": [
+        "INV-440-2-0-11461",
+        "INV-440-2-1-88262"
+      ]
+    },
+    "success": true,
+    "seconds": 2.6250025257468224e-05
+  },
+  {
+    "case_id": "440-correction-1",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-53021",
+          "vendor": "O’Neill Labs",
+          "due": "2027-06-17",
+          "memo": "retain original order",
+          "currency": "GBP",
+          "status": "cancelled",
+          "amount_minor": 611846
+        },
+        {
+          "id": "INV-440-1-1-49620",
+          "vendor": "Müller Studio",
+          "due": null,
+          "memo": "retain original order",
+          "currency": "GBP",
+          "status": "open",
+          "amount_minor": 450888
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.26249685510993e-05
+  },
+  {
+    "case_id": "440-correction-1",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-1-0-53021": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 611846,
+            "currency": "GBP"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 6,
+            "day": 17
+          },
+          "cancelled": true,
+          "memo": "retain original order"
+        },
+        "INV-440-1-1-49620": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 450888,
+            "currency": "GBP"
+          },
+          "deadline": null,
+          "cancelled": false,
+          "memo": "retain original order"
+        }
+      },
+      "order": [
+        "INV-440-1-0-53021",
+        "INV-440-1-1-49620"
+      ]
+    },
+    "success": true,
+    "seconds": 2.3500004317611456e-05
+  },
+  {
+    "case_id": "440-precision-1",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-92236",
+          "vendor": "Müller Studio",
+          "currency": "JPY",
+          "due": "2027-08-01",
+          "status": "open",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 377079
+        },
+        {
+          "id": "INV-440-1-1-42890",
+          "vendor": "Müller Studio",
+          "currency": "JPY",
+          "due": "2027-02-19",
+          "status": "open",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 211171
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.5290995836257935e-05
+  },
+  {
+    "case_id": "440-precision-1",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-1-0-92236": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 377079,
+            "currency": "JPY"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 8,
+            "day": 1
+          },
+          "cancelled": false,
+          "memo": "batch \"B\" / blue"
+        },
+        "INV-440-1-1-42890": {
+          "supplier": "Müller Studio",
+          "money": {
+            "units": 211171,
+            "currency": "JPY"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 2,
+            "day": 19
+          },
+          "cancelled": false,
+          "memo": "batch \"B\" / blue"
+        }
+      },
+      "order": [
+        "INV-440-1-0-92236",
+        "INV-440-1-1-42890"
+      ]
+    },
+    "success": true,
+    "seconds": 2.5708985049277544e-05
+  },
+  {
+    "case_id": "440-plain-0",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-0-0-20847",
+          "vendor": "North \"Star\"",
+          "currency": "USD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "café supplies",
+          "amount_minor": 787804
+        },
+        {
+          "id": "INV-440-0-1-92809",
+          "vendor": "A/B Supply",
+          "currency": "EUR",
+          "due": "2027-11-05",
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 578341
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.1290965378284454e-05
+  },
+  {
+    "case_id": "440-plain-0",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-0-0-20847": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 787804,
+            "currency": "USD"
+          },
+          "deadline": null,
+          "cancelled": true,
+          "memo": "café supplies"
+        },
+        "INV-440-0-1-92809": {
+          "supplier": "A/B Supply",
+          "money": {
+            "units": 578341,
+            "currency": "EUR"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 11,
+            "day": 5
+          },
+          "cancelled": true,
+          "memo": "batch \"B\" / blue"
+        }
+      },
+      "order": [
+        "INV-440-0-0-20847",
+        "INV-440-0-1-92809"
+      ]
+    },
+    "success": true,
+    "seconds": 2.141698496416211e-05
+  },
+  {
+    "case_id": "440-plain-1",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-1-0-21053",
+          "vendor": "O’Neill Labs",
+          "currency": "EUR",
+          "due": "2027-08-10",
+          "status": "cancelled",
+          "memo": "batch \"B\" / blue",
+          "amount_minor": 24723
+        },
+        {
+          "id": "INV-440-1-1-80088",
+          "vendor": "North \"Star\"",
+          "currency": "USD",
+          "due": "2027-11-10",
+          "status": "open",
+          "memo": "no rush; fragile",
+          "amount_minor": 894610
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.4666020181030035e-05
+  },
+  {
+    "case_id": "440-plain-1",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-1-0-21053": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 24723,
+            "currency": "EUR"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 8,
+            "day": 10
+          },
+          "cancelled": true,
+          "memo": "batch \"B\" / blue"
+        },
+        "INV-440-1-1-80088": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 894610,
+            "currency": "USD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 11,
+            "day": 10
+          },
+          "cancelled": false,
+          "memo": "no rush; fragile"
+        }
+      },
+      "order": [
+        "INV-440-1-0-21053",
+        "INV-440-1-1-80088"
+      ]
+    },
+    "success": true,
+    "seconds": 2.5874993298202753e-05
+  },
+  {
+    "case_id": "440-precision-3",
+    "interface": "v1",
+    "output": {
+      "invoices": [
+        {
+          "id": "INV-440-3-0-62999",
+          "vendor": "O’Neill Labs",
+          "currency": "KWD",
+          "due": "2027-07-09",
+          "status": "open",
+          "memo": "line A & B",
+          "amount_minor": 564751
+        },
+        {
+          "id": "INV-440-3-1-15488",
+          "vendor": "North \"Star\"",
+          "currency": "KWD",
+          "due": null,
+          "status": "cancelled",
+          "memo": "line A & B",
+          "amount_minor": 610681
+        }
+      ]
+    },
+    "success": true,
+    "seconds": 2.0208011846989393e-05
+  },
+  {
+    "case_id": "440-precision-3",
+    "interface": "v2",
+    "output": {
+      "invoices": {
+        "INV-440-3-0-62999": {
+          "supplier": "O’Neill Labs",
+          "money": {
+            "units": 564751,
+            "currency": "KWD"
+          },
+          "deadline": {
+            "year": 2027,
+            "month": 7,
+            "day": 9
+          },
+          "cancelled": false,
+          "memo": "line A & B"
+        },
+        "INV-440-3-1-15488": {
+          "supplier": "North \"Star\"",
+          "money": {
+            "units": 610681,
+            "currency": "KWD"
+          },
+          "deadline": null,
+          "cancelled": true,
+          "memo": "line A & B"
+        }
+      },
+      "order": [
+        "INV-440-3-0-62999",
+        "INV-440-3-1-15488"
+      ]
+    },
+    "success": true,
+    "seconds": 2.3833999875932932e-05
+  }
+]

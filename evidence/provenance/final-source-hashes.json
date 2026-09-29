@@ -1,0 +1,11 @@
+{
+  "src/audit.py": "48ef71b2fe7eb450c10667a1e4f1a5cbbeb11d5327ffc7483b703f23572a77d0",
+  "src/experiment.py": "0185a2a914f36e8e598e68524397592053878f3517db9e55d9c9918bed2080ab",
+  "src/repair_control.py": "5b7af7dd0f78bb0730e46281319924dc7061fe7b37b6ee18f914425491d6bb29",
+  "src/source_parser.py": "9d8bd477338bc61e0abd9f9318737a792f60c51ef4a74600a1dc353f648b9b14",
+  "protocols/followup.md": "887404ccb7f4f29884d53543febd182cf6242812cf6a84c238b72062bf709dbf",
+  "protocols/phase1.md": "a2423b81f7beb96b74318b85062d98b37cf1aeb69174f3681986bd254df9fefb",
+  "tests/test_experiment.py": "a8e6c2ef029578c09bc21ff8a9f6cd3e2318149cf02eb0324eed13ea63bf790d",
+  "tests/test_repair.py": "702a57bf034ff4b2eb673aa486794a290c448fda3c79ff1bad9d8c0f770ae3e1",
+  "tests/test_source_parser.py": "49cca0dcddec8e74ff7982d2dc2da10d2934c006fc6673c5dbe186aee4e75483"
+}

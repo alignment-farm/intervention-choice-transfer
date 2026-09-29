@@ -1,0 +1,9 @@
+{
+  "fresh": true,
+  "seed": 440,
+  "parser_sha256": "9d8bd477338bc61e0abd9f9318737a792f60c51ef4a74600a1dc353f648b9b14",
+  "harness_sha256": "0185a2a914f36e8e598e68524397592053878f3517db9e55d9c9918bed2080ab",
+  "protocol_sha256": "48b0dcb351d96a45c908abc3d3db2a2a779a9fee7ebb95057c875800ed319e78",
+  "participant_model_calls": 0,
+  "gold_access": "Scoring only. extract() argument is source string."
+}
