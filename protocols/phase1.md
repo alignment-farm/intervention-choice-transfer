@@ -65,3 +65,17 @@ unbounded retry. Timeout/error retained; abort phase on serving failures. No hea
 training. Mutable state here is a policy file, not model weights; serving does not
 establish gradient access. Fresh confirmation runs only after implementation,
 validators and policy persistence are checked.
+
+## Development diagnosis and frozen ordinary repair (before acquisition/fresh)
+
+Development completed 24 calls: D V1 6/6, C V1 6/6, D V2 3/6,
+C V2 6/6. Every observed failure was a mismatched second ID in V2's order
+array. All other fields were exact. These development records are exploration,
+not confirmation. No prompt or remedy change was made. Add a current-source
+repair control: extract initial invoice mentions from source; when that unique
+ID set exactly equals the emitted invoice keys, replace the redundant order
+array with source order. Do not correct money, names or other semantic fields.
+This exposes ordinary source access and zero-additional-call repair. Also report
+repair-then-validator-fallback. The rule is investigator-authored from development
+and shared with all inherited/fixed policies in a secondary repaired comparison;
+it is not evidence of autonomous policy acquisition.

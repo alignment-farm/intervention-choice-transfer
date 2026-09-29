@@ -1,0 +1,4 @@
+16856       00:29 uv run python src/experiment.py run --seed 110 --per-group 2 --interfaces v1 v2 --output evidence/development
+16862       00:29 /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/intervention-choice-transfer/.venv/bin/python3 src/experiment.py run --seed 110 --per-group 2 --interfaces v1 v2 --output evidence/development
+16865       00:28 /Users/macos-user/.docker/bin/inference/llama-server -ngl 999 --metrics --no-mmap --threads 10 --model /Users/macos-user/.docker/models/bundles/sha256/79fa56c07429f64f41950fe2f524937cf3ae9ea9bd3d7ada72170b036ea3cc85/model/model.gguf --host /Users/macos-user/Library/Containers/com.docker.docker/Data/inference-0.sock --jinja
+16881       00:04 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python -

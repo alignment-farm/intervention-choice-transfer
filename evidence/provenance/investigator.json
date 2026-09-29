@@ -1,0 +1,23 @@
+{
+  "session": "01a0ebca-8395-75d0-a7a3-10439f6a4f8a",
+  "investigator_model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "provider": "openai",
+  "harness": "codex-cli 0.158.0",
+  "evidence_basis": "session_meta and first turn_context read from current local rollout; backend fingerprint not independently verified",
+  "starting_revision": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+  "starting_context": [
+    "user AGENTS instructions",
+    "user request to read START and execute autonomously",
+    "README.md",
+    "BACKGROUND.md",
+    "START.md",
+    "AGENTS.md"
+  ],
+  "investigator_token_cost": "unknown",
+  "investigator_money_cost": "unknown",
+  "participant_money_cost": "unknown; local hardware electricity/amortization not measured",
+  "participant_training": "none; no gradient capability checked or claimed",
+  "mutable_state": "explicit evidence/policy.json table",
+  "utc": "2026-09-29T06:18:57.976582+00:00"
+}

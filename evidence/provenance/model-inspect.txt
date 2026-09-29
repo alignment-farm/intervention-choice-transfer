@@ -1,0 +1,14 @@
+{
+    "id": "sha256:79fa56c07429f64f41950fe2f524937cf3ae9ea9bd3d7ada72170b036ea3cc85",
+    "tags": [
+        "docker.io/ai/qwen3:8B-Q4_K_M"
+    ],
+    "created": 1746022478,
+    "config": {
+        "format": "gguf",
+        "quantization": "IQ2_XXS/Q4_K_M",
+        "parameters": "8.19 B",
+        "architecture": "qwen3",
+        "size": "4.68 GiB"
+    }
+}
