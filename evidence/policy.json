@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "plain": {
+      "D": {
+        "success": 3,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    },
+    "correction": {
+      "D": {
+        "success": 3,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    },
+    "precision": {
+      "D": {
+        "success": 4,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    }
+  },
+  "choice": {
+    "plain": "C",
+    "correction": "C",
+    "precision": "D"
+  },
+  "global_choice": "C",
+  "eligible_outcomes_sha256": "8390ed0a89ec23a7adb61c39c5d70ef51f24029756c14223b0f48de3eb21ad8e",
+  "tie_break": "D",
+  "updated_utc": "2026-09-29T06:22:18.779433+00:00"
+}
