@@ -1,0 +1,15 @@
+{
+  "seed": 330,
+  "per_group": 6,
+  "interfaces": [
+    "v2"
+  ],
+  "code_sha256": "0185a2a914f36e8e598e68524397592053878f3517db9e55d9c9918bed2080ab",
+  "protocol_sha256": "a2423b81f7beb96b74318b85062d98b37cf1aeb69174f3681986bd254df9fefb",
+  "git_head": "f83506ef80e4d1ad0808a224ded6e05a42bc945e",
+  "python": "3.14.7",
+  "started_utc": "2026-09-29T06:22:18.965812+00:00",
+  "model": "docker.io/ai/qwen3:8B-Q4_K_M",
+  "endpoint": "https://mac-studio-7hr7.taile71f88.ts.net/engines/v1/chat/completions",
+  "policy_sha256": "8af87a0d2bb382329291d132a9de8c0df17f52ae658b3dcd9baa105f4b33710a"
+}

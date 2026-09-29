@@ -1,0 +1,954 @@
+{
+  "fixed_D": {
+    "n": 18,
+    "success": 14,
+    "valid": 16,
+    "requests": 18,
+    "prompt_tokens": 7425,
+    "completion_tokens": 3765,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "fixed_C": {
+    "n": 18,
+    "success": 17,
+    "valid": 18,
+    "requests": 18,
+    "prompt_tokens": 6759,
+    "completion_tokens": 2355,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "C",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "inherited_category": {
+    "n": 18,
+    "success": 16,
+    "valid": 16,
+    "requests": 18,
+    "prompt_tokens": 6981,
+    "completion_tokens": 2887,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "inherited_global": {
+    "n": 18,
+    "success": 17,
+    "valid": 18,
+    "requests": 18,
+    "prompt_tokens": 6759,
+    "completion_tokens": 2355,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "C",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "current_source": {
+    "n": 18,
+    "success": 16,
+    "valid": 18,
+    "requests": 18,
+    "prompt_tokens": 6981,
+    "completion_tokens": 2845,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "C",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "schema_aware_reuse": {
+    "n": 18,
+    "success": 17,
+    "valid": 18,
+    "requests": 18,
+    "prompt_tokens": 6759,
+    "completion_tokens": 2355,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "C",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "validator_fallback": {
+    "n": 18,
+    "success": 16,
+    "valid": 18,
+    "requests": 20,
+    "prompt_tokens": 8127,
+    "completion_tokens": 4027,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "D",
+        "success": false
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": false
+  },
+  "oracle": {
+    "n": 18,
+    "success": 18,
+    "valid": 18,
+    "requests": 18,
+    "prompt_tokens": 7277,
+    "completion_tokens": 3427,
+    "decisions": [
+      {
+        "case_id": "330-correction-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-2",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-4",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-5",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-precision-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-5",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-correction-3",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-1",
+        "interface": "v2",
+        "action": "C",
+        "success": true
+      },
+      {
+        "case_id": "330-plain-0",
+        "interface": "v2",
+        "action": "D",
+        "success": true
+      }
+    ],
+    "oracle_not_deployable": true
+  }
+}

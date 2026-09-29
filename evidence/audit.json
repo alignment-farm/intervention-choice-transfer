@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "development: independent gold/scoring, complete run, source isolation, no truncation, unique cohort IDs",
+    "acquisition: independent gold/scoring, complete run, source isolation, no truncation, unique cohort IDs",
+    "confirmation: independent gold/scoring, complete run, source isolation, no truncation, unique cohort IDs",
+    "policy acquired solely from old-interface records and byte-identical to pre-confirmation manifest"
+  ],
+  "actual_calls": 84,
+  "actual_prompt_tokens": 32180,
+  "actual_completion_tokens": 12928,
+  "actual_request_seconds": 253.294468252745,
+  "audit_scope": "Offline full primary cohort; not an independent investigator review."
+}

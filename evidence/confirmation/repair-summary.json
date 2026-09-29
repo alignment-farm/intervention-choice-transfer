@@ -1,0 +1,6 @@
+{
+  "records": 36,
+  "success": 32,
+  "cpu_seconds": 0.00035895640030503273,
+  "note": "All policies receive same source-only repair; fallback checks post-repair validity."
+}

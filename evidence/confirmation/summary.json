@@ -1,0 +1,18 @@
+{
+  "v2/D": {
+    "n": 18,
+    "success": 14,
+    "valid": 16,
+    "prompt_tokens": 7425,
+    "completion_tokens": 3765,
+    "request_seconds": 73.89276704302756
+  },
+  "v2/C": {
+    "n": 18,
+    "success": 17,
+    "valid": 18,
+    "prompt_tokens": 6759,
+    "completion_tokens": 2355,
+    "request_seconds": 43.95392358495155
+  }
+}
