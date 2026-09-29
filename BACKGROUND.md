@@ -80,13 +80,13 @@ and third-party terms. No upstream implementation is vendored into this study.
 
 These are historical root assessments, not authorizations to reopen their studies:
 
-- [Remedy feasibility](https://github.com/alignment-farm/construct-2/blob/275de307ad4d61479df60dfee4c93246f54083b3/studies/2026-09-16-remedy-feasibility.md):
+- [Remedy feasibility](https://github.com/alignment-farm/construct-2/blob/c6aebb4422134b4529d4226aa3a6788367fb5973/studies/2026-09-16-remedy-feasibility.md):
   the proposed S4 remedy distinction did not supply useful choice headroom;
   competent explicit access solved the candidate task.
-- [Maintenance-decision transfer](https://github.com/alignment-farm/construct-2/blob/275de307ad4d61479df60dfee4c93246f54083b3/studies/2026-09-16-maintenance-transfer-findings.md):
+- [Maintenance-decision transfer](https://github.com/alignment-farm/construct-2/blob/c6aebb4422134b4529d4226aa3a6788367fb5973/studies/2026-09-16-maintenance-transfer-findings.md):
   history-guided aggregate selection coexisted with incomplete available actions
   and weak observation controls. Better selection is insufficient by itself.
-- [Migration and lineage](https://github.com/alignment-farm/construct-2/blob/275de307ad4d61479df60dfee4c93246f54083b3/studies/2026-09-17-migration-lineage-findings.md):
+- [Migration and lineage](https://github.com/alignment-farm/construct-2/blob/c6aebb4422134b4529d4226aa3a6788367fb5973/studies/2026-09-17-migration-lineage-findings.md):
   unchanged guidance remained useful after migration while paid selection failed
   to repay its additional cost. Adaptation should not be presumed necessary.
 
