@@ -1,0 +1,32 @@
+# Environments and Python caches
+.venv/
+.uv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local downloads and scratch space; preserve claim-bearing evidence elsewhere.
+.cache/
+downloads/
+models/
+tmp/
+.DS_Store
+
+# Secrets and local agent state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+.codex/
+.claude/
+.agent/
+
+# Commit uv.lock and experimental evidence when introduced.
